@@ -39,7 +39,7 @@ export default function Projects() {
                                     {tech}
                                 </span>
                             ))} 
-                            <p className="mt-4 text-white"><a href={project.link} target="_blank">Confira o projetop completo aqui</a></p>
+                            <button className="mt-4 py-2 px-4 bg-white rounded text-stone-900 hover:bg-stone-400 hover:text-white"><a href={project.link} target="_blank">Confira o projeto aqui</a></button>
                         </motion.div>
                     </div>
                 ))}

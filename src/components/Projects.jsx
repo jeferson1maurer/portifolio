@@ -30,7 +30,7 @@ export default function Projects() {
                             whileInView={{ opacity: 1, x:0}}
                             initial={{ opacity: 0, x: 100}}
                             transition={{ duration: 1}}
-                            className="w-full max-w-xl lg:w-3/4">
+                            className="w-full pl-4 max-w-xl lg:w-3/4">
                             <h3 className="mb-2 font-semibold text-2xl ">{project.title}</h3>
                             <p className="mb-4 text-stone-400">{project.description}</p>
                            
@@ -39,7 +39,7 @@ export default function Projects() {
                                     {tech}
                                 </span>
                             ))} 
-                            <button className="mt-4 py-2 px-4 bg-white rounded text-stone-900 hover:bg-stone-400 hover:text-white"><a href={project.link} target="_blank">Confira o projeto aqui</a></button>
+                            <button className="mt-4 mx-auto py-2 px-4 bg-white rounded text-stone-900 hover:bg-stone-400 hover:text-white"><a href={project.link} target="_blank">Confira o projeto aqui</a></button>
                         </motion.div>
                     </div>
                 ))}

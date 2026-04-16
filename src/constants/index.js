@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.webp";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `Sou desenvolvedor Front-End focado na criação de interfaces modernas e responsivas utilizando React, Next.js, TypeScript e Tailwind CSS. Gosto de transformar ideias em aplicações funcionais, com código limpo, boa performance e ótima experiência para o usuário. Estou sempre evoluindo e construindo novos projetos para aprimorar minhas habilidades.`;
 
@@ -40,6 +41,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Visualize",
+    image: project5,
+    description:
+      "Landing page responsiva feita com React e Tailwind CSS, focada em conversão. Estrutura otimizada, rápida e com botão de WhatsApp para contato direto.",
+    technologies: ["Tailwind", "React", "JavaScript"],
+    link: "https://visualize-comunica-o-visual.vercel.app/"
+  },
+  {
     title: "VastuSpaze",
     image: project1,
     description:
@@ -55,22 +64,6 @@ export const PROJECTS = [
     technologies: ["React", "Tailwind", "JavaScript"],
     link: "https://clone-site-i-phone.vercel.app/"
   },
-  {
-    title: "Gallery+",
-    image: project3,
-    description:
-      "Álbum de fotos desenvolvido com React, TypeScript e Tailwind CSS, com foco em componentização, tipagem, estados de carregamento.",
-    technologies: ["React", "Typescript", "Tailwindcss"],
-    link: "hhttps://gallery-plus-six.vercel.app/"
-  },
-  // {
-  //   title: "Blogging Platform",
-  //   image: project4,
-  //   description:
-  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  //   link: "https://vastu-space-alpha.vercel.app/"
-  // },
 ];
 
 export const CONTACT = {

@@ -41,6 +41,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Landing Page/Blog",
+    image: project6,
+    description:
+      "Aplicação moderna de Landing Page e Blog desenvolvida com Next.js, React, TypeScript e Tailwind CSS. O projeto foi inicialmente criado utilizando a arquitetura Pages Router e posteriormente migrado para o App Router, adotando React Server Components (RSC) para melhorar performance, escalabilidade e otimizações de SEO.",
+    technologies: ["Tailwind", "React", "JavaScript", "Next.js"],
+    link: "https://landing-page-blog-iy28.vercel.app/"
+  },
+  {
     title: "Visualize",
     image: project5,
     description:

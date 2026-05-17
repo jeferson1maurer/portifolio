@@ -1,8 +1,8 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.webp";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `Sou desenvolvedor Front-End focado na criação de interfaces modernas e responsivas utilizando React, Next.js, TypeScript e Tailwind CSS. Gosto de transformar ideias em aplicações funcionais, com código limpo, boa performance e ótima experiência para o usuário. Estou sempre evoluindo e construindo novos projetos para aprimorar minhas habilidades.`;
 
